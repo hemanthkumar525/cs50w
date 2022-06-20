@@ -11,4 +11,4 @@ knowledge = And(
     dumbledore
 )
 
-print(model_check(knowledge, rain))
+print(model_check(knowledge, dumbledore))

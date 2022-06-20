@@ -1,0 +1,10 @@
+a = [1,6461,646,6,6]
+print(a)
+a.insert(1, 5555)
+print(a)
+a.append(5452154)
+print(a)
+a.pop(5 )
+print(a)
+a.remove(1)
+print(a)

@@ -39,4 +39,10 @@ knowledge.add(Not(mustard))
 knowledge.add(Not(kitchen))
 knowledge.add(Not(revolver))
 
+knowledge.add(Or(
+    Not(scarlet),Not(library),Not(wrench)
+))
+
+knowledge.add(Not(plum))
+knowledge.add(Not(ballroom))
 check_knowledge(knowledge)

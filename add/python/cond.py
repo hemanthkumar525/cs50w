@@ -9,7 +9,3 @@ elif(a>100) :
     print('i can go to fast food')
 else:
     print('i can stay at home')
-
-
-
-

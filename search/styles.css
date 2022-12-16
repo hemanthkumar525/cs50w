@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    height: auto;
+}
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color:#04aa6d;
+    color: white;
+}
+.topnav-right {
+    background-color: white;
+    color: white;
+    float: right;
+}
+.form{
+    position: relative;
+    width: 50px;
+}
+.form.fa-search{
+    position: absolute;
+    color: #9ca3af;
+ }
+.form span {
+    position: relative;
+    right: 1px;
+    top: 10px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.form-input {
+    height: 25px;
+    border-radius: 5px;
+}
+.form-input:focus {
+    box-shadow: 1px;
+    border: 1px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    border-radius: 10px 10px;
+    border: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    float: left 100px;
+    font-size: 10px;
+}
+h3 {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
